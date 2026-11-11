@@ -1,10 +1,59 @@
-# 💫 About Me:
-Hi there, I'm Khoa Phan 👋<br>AI Enthusiast & Problem Solver | CS Student @ VNU-HCM High School for the Gifted<br>I'm a high school student (Class of 2028) majoring in Computer Science, with a strong passion for Applied Artificial Intelligence and Machine Learning. Rather than just focusing on theoretical algorithms, I love building practical solutions and transforming data into actionable insights.<br><br>🚀 About Me<br>🔭 Currently working on: Refining my AI models and packaging them into open-source, deployable applications.<br><br>🌱 Currently learning: Advanced Data Structures, Cloud Computing (AWS), and preparing for my upcoming standardized tests.<br><br>👯 Looking to collaborate on: Open-source AI projects, IoT data visualization, and ML research.<br><br>💬 Ask me about: Python, Machine Learning fundamentals, and competitive AI challenges.<br><br>📫 How to reach me: phanxuankhoa2010@gmail.com<br><br>🏆 Highlighted Achievements<br>Champion (Team) - HSG (PTNK) AI Challenge (PAIC 2025)<br><br>Bronze Medal - Central Highlands Regional Informatics Olympiad 2026 (AI Challenge Track)<br><br>Founder - The Coding Realm (A tech community with 100+ active followers)<br><br>Top 2 Project - HCMC Science and Technology Exhibition (Featured on Muc Tim Magazine)<br><br>🛠 Tech Stack & Certifications<br>Languages & Tools:<br><br>Python (Data Analysis, Scraping, Scripting)<br><br>C++ (Competitive Programming)<br><br>Git & GitHub<br><br>Certifications:<br><br>AWS Machine Learning Foundations<br><br>Cisco NETACAD Python Essentials 1 & 2<br><br>📁 Featured Projects<br><br>PAIC Winning AI Model: A brief 1-sentence description of what it does, the framework used, and its impact.<br><br>IoT Environment Sensor / Data Viz: A brief description of how it collects data and visualizes it.<br><br>Python Web Scraper: A brief description of the tool and its real-world utility.
+# Phan Xuan Khoa (Phan Xuân Khoa)
 
+High school student in the Informatics specialization at the **High School for the Gifted, VNU-HCM (PTNK)**, Class of 2028.  
+I build applied AI systems end to end, from data pipelines and models to the APIs and interfaces people use. My main areas are **multimodal retrieval, medical imaging and fast inference on ordinary hardware**.
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=s4dz&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=s4dz&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=s4dz&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+📫 khoaphan.academic@gmail.com · [Codeforces](https://codeforces.com/profile/XKhoa)
+
+---
+
+## 🔬 Research
+
+**Sub-Event Ranking and Whole-Video Candidate Search for Multi-Event Temporal Grounding in a Hybrid Multimodal Retrieval System**  
+T. L. Cao, **X. K. Phan**, N. N. Duc, Q. T. Ha, A. Q. Dang. *Accepted for oral presentation at SOICT 2026* (13th International Symposium on Information and Communication Technology). Second author and co-corresponding author.  
+I built the system's retrieval API (FastAPI), its unified search interface and the keyframe-processing pipeline. Code: [Tinhcautoan/aic2026](https://github.com/Tinhcautoan/aic2026)
+
+**Research intern, AIoT Lab Vietnam, International University – VNU-HCM** (Summer 2026)  
+Supervisors: Dr. Le Duy Tan, Pham Duc Dat.
+- Built a multimodal BI-RADS classifier for mammography (VinDr-Mammo) that fuses the CC and MLO views with clinical metadata: SwinV2 backbone, cross-attention fusion, CatBoost head. Macro-F1 0.454 under patient-grouped 4-fold cross-validation on a heavily imbalanced 3-class task.
+- Built **mammo-validator**, a full-stack DICOM viewer and model-checking tool (Next.js, TypeScript, SQLite) that uses Cleanlab to flag out-of-fold labels for review.
+<!-- Add a link here once mammo-validator is public (with the lab's approval and no patient data). -->
+
+---
+
+## 🛠️ Selected projects
+
+| Project | What it does | Stack |
+| :-- | :-- | :-- |
+| [**aic2026**](https://github.com/Tinhcautoan/aic2026) | Multimodal video retrieval system behind the SOICT 2026 paper. First Prize, High School Division, AI Challenge HCMC 2026 | Python, FastAPI |
+| [**IELTS essay scoring**](https://github.com/s4dz/ielts-essay-scoring-paic2025) | Scores IELTS Task 1 and Task 2 essays on the 1–9 band scale. Team Mango's winning entry at PAIC 2026. CV MAE 0.415 | DeBERTa-v3, LightGBM, CatBoost |
+| **Dysgraphia early screening** | Screens elementary students for dysgraphia by combining a hand-landmark and tremor (FFT) model with a ResNet50 stroke model. Runs on a CPU at 36.3 ms per sample after INT8 quantization | MediaPipe, ResNet50, OpenVINO |
+| [**TensorTonic solutions**](https://github.com/s4dz/TensorTonic-Solutions) | 31 core deep-learning components written from scratch in NumPy: optimizers, losses, convolution, ResNet blocks | NumPy |
+<!-- Link the dysgraphia project once its repo is public. -->
+
+---
+
+## 🏆 Selected honors
+
+- **First Prize, High School Division**, AI Challenge Ho Chi Minh City 2026
+- **First Prize, Southern Region (Category B)**, National Youth Creativity Competition in AI 2026. Team leader; advanced to the national final
+- **Champion (Team Mango) and Best Individual Award**, PTNK AI Challenge (PAIC) 2026
+- **Bronze Medal, AI Challenge Division**, Olympiad in Informatics in Central Vietnam 2026 (6th of 53 teams)
+- **One of two outstanding projects out of 22**, AI Foundation Study Program 2025 (HCMC Department of Science and Technology)
+
+---
+
+## 🤝 Community
+
+- **AIQS (High School AI, Quant & Startup Project):** co-founder, vice president and head of the AI division. I mentor the 27 members and review the content of our ML/DL seminars.
+- **SUGAR Vietnam:** I coordinate 18 volunteer teachers across 2 social protection centers. I also built the scheduling tool that matches volunteers' availability with the children's sessions.
+- **The Noders AI Club (PTNK):** academic advisor, R&D (2026–27).
+
+---
+
+## 💻 Toolkit
+
+- **Languages:** Python · C++ · TypeScript · SQL
+- **ML:** PyTorch · Hugging Face Transformers · scikit-learn · CatBoost · LightGBM · OpenCV · MediaPipe
+- **Deployment:** OpenVINO · ONNX Runtime · FastAPI · Docker · Next.js · SQLite
+- **Certifications:** AWS Machine Learning Foundations · Cisco Python Essentials 1 & 2
