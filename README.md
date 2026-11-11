@@ -27,9 +27,8 @@ Supervisors: Dr. Le Duy Tan, Pham Duc Dat.
 | :-- | :-- | :-- |
 | [**aic2026**](https://github.com/Tinhcautoan/aic2026) | Multimodal video retrieval system behind the SOICT 2026 paper. First Prize, High School Division, AI Challenge HCMC 2026 | Python, FastAPI |
 | [**IELTS essay scoring**](https://github.com/s4dz/ielts-essay-scoring-paic2025) | Scores IELTS Task 1 and Task 2 essays on the 1–9 band scale. Team Mango's winning entry at PAIC 2026. CV MAE 0.415 | DeBERTa-v3, LightGBM, CatBoost |
-| **Dysgraphia early screening** | Screens elementary students for dysgraphia by combining a hand-landmark and tremor (FFT) model with a ResNet50 stroke model. Runs on a CPU at 36.3 ms per sample after INT8 quantization | MediaPipe, ResNet50, OpenVINO |
+| [**Dysgraphia early screening**](https://github.com/DavBao-dev/Dysgraphia-Screening-Prototype) | Screens elementary students for dysgraphia from hand movement (MediaPipe landmarks, tremor and kinematic features, Random Forest) and handwriting images (ResNet50). First Prize, Southern Region, National Youth Creativity Competition in AI 2026. Team leader; I built the FastAPI + Next.js web app | MediaPipe, ResNet50, FastAPI, Next.js |
 | [**TensorTonic solutions**](https://github.com/s4dz/TensorTonic-Solutions) | 32 core deep-learning components written from scratch in NumPy: optimizers, losses, convolution, ResNet blocks | NumPy |
-<!-- Link the dysgraphia project once its repo is public. -->
 
 ---
 
