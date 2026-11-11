@@ -16,8 +16,9 @@ I built the system's retrieval API (FastAPI), its unified search interface and t
 **Research intern, AIoT Lab Vietnam, International University – VNU-HCM** (Summer 2026)  
 Supervisors: Dr. Le Duy Tan, Pham Duc Dat.
 - Built a multimodal BI-RADS classifier for mammography (VinDr-Mammo) that fuses the CC and MLO views with clinical metadata: SwinV2 backbone, cross-attention fusion, CatBoost head. Macro-F1 0.454 under patient-grouped 4-fold cross-validation on a heavily imbalanced 3-class task.
-- Built **mammo-validator**, a full-stack DICOM viewer and model-checking tool (Next.js, TypeScript, SQLite) that uses Cleanlab to flag out-of-fold labels for review.
-<!-- Add a link here once mammo-validator is public (with the lab's approval and no patient data). -->
+- Built most of **mammo-validator**, a full-stack DICOM viewer and review tool (Next.js, TypeScript, SQLite) where radiologists check labels flagged by Confident Learning (Cleanlab).
+
+Code: [s4dz/birads-multimodal-mammography](https://github.com/s4dz/birads-multimodal-mammography)
 
 ---
 
