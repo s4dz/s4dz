@@ -10,7 +10,7 @@ I build applied AI systems end to end, from data pipelines and models to the API
 ## 🔬 Research
 
 **Sub-Event Ranking and Whole-Video Candidate Search for Multi-Event Temporal Grounding in a Hybrid Multimodal Retrieval System**  
-T. L. Cao, **X. K. Phan**, N. N. Duc, Q. T. Ha, A. Q. Dang. *Accepted for oral presentation at SOICT 2026* (13th International Symposium on Information and Communication Technology). Second author and co-corresponding author.  
+T. L. Cao, **X. K. Phan**, N. N. Duc, Q. T. Ha, A. Q. Dang. *Accepted for oral presentation at SOICT 2026* (13th International Symposium on Information and Communication Technology). Second author and corresponding author.  
 I built the system's retrieval API (FastAPI), its unified search interface and the keyframe-processing pipeline. Code: [Tinhcautoan/aic2026](https://github.com/Tinhcautoan/aic2026)
 
 **Research intern, AIoT Lab Vietnam, International University – VNU-HCM** (Summer 2026)  
