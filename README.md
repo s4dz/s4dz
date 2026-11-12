@@ -29,6 +29,8 @@ Code: [s4dz/birads-multimodal-mammography](https://github.com/s4dz/birads-multim
 | [**aic2026**](https://github.com/Tinhcautoan/aic2026) | Multimodal video retrieval system behind the SOICT 2026 paper. First Prize, High School Division, AI Challenge HCMC 2026 | Python, FastAPI |
 | [**IELTS essay scoring**](https://github.com/s4dz/ielts-essay-scoring-paic2025) | Scores IELTS Task 1 and Task 2 essays on the 1–9 band scale. Team Mango's winning entry at PAIC 2026. CV MAE 0.415 | DeBERTa-v3, LightGBM, CatBoost |
 | [**Dysgraphia early screening**](https://github.com/DavBao-dev/Dysgraphia-Screening-Prototype) | Screens elementary students for dysgraphia from hand movement (MediaPipe landmarks, tremor and kinematic features, Random Forest) and handwriting images (ResNet50). First Prize, Southern Region, National Youth Creativity Competition in AI 2026. Team leader; I built the FastAPI + Next.js web app | MediaPipe, ResNet50, FastAPI, Next.js |
+| [**ChildSafe**](https://github.com/Liamislazy/childsafe) | On-device prototype that warns a caregiver when a hand-held object stays near a child's mouth on camera. Leak-free evaluation: 92.0% accuracy on a deduplicated ChildSUn split (vs. 99% on a leaky random split). Built with Cao Tung Lam; I built most of the live multi-person runtime and browser demo, the Android companion app and the play-area check | YOLO11, MediaPipe, EfficientNet, Android |
+| [**Volunteer scheduler**](https://github.com/s4dz/sap-xep-tkb) | Offline tool that builds the weekly tutoring timetable for SUGAR Vietnam's two centres, using constraint programming with strictly ordered objectives. Used by the coordinating team | OR-Tools CP-SAT, Streamlit |
 | [**TensorTonic solutions**](https://github.com/s4dz/TensorTonic-Solutions) | 32 core deep-learning components written from scratch in NumPy: optimizers, losses, convolution, ResNet blocks | NumPy |
 
 ---
@@ -46,7 +48,7 @@ Code: [s4dz/birads-multimodal-mammography](https://github.com/s4dz/birads-multim
 ## 🤝 Community
 
 - **AIQS (High School AI, Quant & Startup Project):** co-founder, vice president and head of the AI division. I mentor the 27 members and review the content of our ML/DL seminars.
-- **SUGAR Vietnam:** I coordinate 18 volunteer teachers across 2 social protection centers. I also built the scheduling tool that matches volunteers' availability with the children's sessions.
+- **SUGAR Vietnam:** I coordinate 18 volunteer teachers across 2 social protection centers. I also built the [scheduling tool](https://github.com/s4dz/sap-xep-tkb) that matches volunteers' availability with the children's sessions.
 - **The Noders AI Club (PTNK):** academic advisor, R&D (2026–27).
 
 ---
